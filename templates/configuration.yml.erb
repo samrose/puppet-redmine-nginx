@@ -84,13 +84,10 @@ default:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: smtp.example.net
-      port: 25
-      domain: example.net
-      authentication: :login
-      user_name: "redmine@example.net"
-      password: "redmine"
-
+        address: localhost
+        port: 25
+        domain: domain.example.com
+        authentication: :none
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.
   # Your Redmine instance needs to have write permission on this
